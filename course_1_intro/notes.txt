@@ -1,0 +1,13 @@
+String has method title()
+dict.get(key, default_value)
+
+range(start, stop, step)
+
+list(zip(lst1, lst2))
+
+items, weight = zip(*manifest)
+
+UnboundLocalError, since Python doesn't allow functions to modify variables that are outside the function's scope. A better way would be to pass the variable as an argument and reassign it outside the function. See more on this in the next page.
+In the last video, you saw that within a function, we can print a global variable's value successfully without an error. This worked because we were simply accessing the value of the variable. If we try to change or reassign this global variable, however, as we do in this code, we get an error. Python doesn't allow functions to modify variables that aren't in the function's scope.
+
+Python Strings are Arrays. They are arrays of bytes representing unicode characters. We can assign a string literal enclosed in a single quotation ('Udacity') or double quotation ("Udacity") marks to a variable.

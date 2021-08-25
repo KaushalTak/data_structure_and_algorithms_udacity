@@ -1,0 +1,23 @@
+P0
+In the solution the two lists are accessed using indices 7 times, which is constant. So it's of constant order.
+Complexity --> O(1)
+
+
+P1
+In the solution 2 lists are traversed 2 times to get values from incoming and receiving number. In total 4n operations take place after that list of length 4n is traversed for finding unique values. Leading to total of 8n.
+Complexity --> O(n)
+
+
+P2
+In solution 3 getting call duration for each number took 1 for loop across calls, and then getting max value will take 1 loop. Because for finding max we need to traverse all values atleast once. Leading to total of 2n.
+Complexity --> O(n)
+
+
+P3
+The for loop has been used twice in the solution leading to complexity of 2n. The sorting has been done once and in the worst case scenario it can have complexity of n*log(n). Leading to total of n*log(n) + 2n
+Complexity --> O(n*log(n))
+
+
+P4
+The for loop is used 3 times (3n) and sets are created 3 times (3n) with 2 union and difference calls (2n). Along with that sort is done once n*log(n). So we get n*log(n) + 8n
+Complexity --> O(n*log(n))
