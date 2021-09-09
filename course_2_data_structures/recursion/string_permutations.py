@@ -1,4 +1,3 @@
-# Recursive Solution
 """
 Param - input string
 Return - compound object: list of all permutations of the input string
