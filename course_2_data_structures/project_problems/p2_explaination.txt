@@ -1,0 +1,12 @@
+Time complexity:
+The input is a path to some directory. If the size of the directory/number of files+subdirectories are n.
+Then we will first be using listdir to list all the directories, which will be O(n). And then we will be
+checking for each of them if it is a directory or not, so O(n) again and then we check for each file if 
+the suffixe is present or not, that's going to take O(n). So total O(3n) which mean complexity will be
+==> O(n)
+
+Space Complexity:
+Since we are using a recursive function we'll have to maintain a stack, if the depth is d it will be O(d).
+Then within each directory we'll have a list of files+subdirectories, if that number is avg n, then O(avg n)
+Then we'll have a list where we are saving the file paths that have our suffixe, it will be O(n). So, 
+==> O(d*(avg n) + n)

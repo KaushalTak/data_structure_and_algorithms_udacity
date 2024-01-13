@@ -1,0 +1,12 @@
+Time Complexity:
+I have used dictionary for looking up the values in the cache as the lookup is constant.
+To remove the least used used value from the cache I had to track the usage of caches.
+Using a doubly linked list made here because I can easily ideantify the associated node with any 
+through the dictionary and then change it's position easily. The removal of any node from doubly linked 
+list can be done in constant time. The addition also takes constant time.
+==> O(1)
+
+Space Complexity:
+The size of dictionary as well as of Doubly Linked List can have maximum size of Capacity. If
+capacity is n Space used will be O(n+n) == > O(2n)
+==> O(n)

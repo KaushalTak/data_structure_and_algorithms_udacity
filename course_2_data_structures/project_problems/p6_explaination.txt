@@ -1,0 +1,6 @@
+Time complexity:
+The time complexity for union and intersection both will be O(n+m) where n and m are sizes of linked list 1 and linked list 2.
+We need to traverse them once to get data in set and then we do union, which will take O(n+m) and intersection, which takes O(min(n, m)) using set.
+
+Space Complexity:
+For union and intersection both space complexity will be O(n+m)

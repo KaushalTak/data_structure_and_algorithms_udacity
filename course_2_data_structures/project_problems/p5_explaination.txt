@@ -1,0 +1,7 @@
+Time Comlexity:
+The blockchain is based on the idea of linked list so the time complexity will be O(n) where n is number of blocks.
+Rest other components like SHA take constant time.
+
+SPace Complexity:
+If there are n blocks the size of Linked List will be n, so the space complexity is
+==> O(n)

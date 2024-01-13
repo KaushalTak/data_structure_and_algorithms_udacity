@@ -1,4 +1,4 @@
-def case_sort(string):
+def case_sort(string: str) -> str:
     '''
     Given a string with just lower and upper case characters return
     a case sorted string, i.e., at index where there was a upper

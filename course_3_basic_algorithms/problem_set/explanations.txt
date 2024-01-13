@@ -1,0 +1,68 @@
+problem 1:
+To find the number a search is carried out.
+Search starts from the point that is half of the given number.
+If the half's square is less we search in first half of the half, else in second half of the half. and so on.
+This leads to log(n) runtime complexity, associated with the while loop.
+The space complexity is constant.
+Time Complexity - O(log(n))
+Space Complexity - O(1)
+
+
+
+problem 2:
+We have sorted array that is rotated. 
+To find an element in the array we use binary search.
+Recursion is used with indexes so no new space is created except constant space.
+Time Complexity - O(log(n))
+Space Complexity - O(1)
+
+
+
+problem 3:
+For rearranging the numbers merge sort is used with the logic that the two rearranged number should always have the largest two digits as there first digit.
+The merge sort takes nlog(n) time complexity which is highest compared to other parts of the code like merging sorted array.
+Instead of indexes the array slicing is used. Which leads to 3n space while doing the recursion associated with the merge sort.
+Time Complexity - O(nlog(n))
+Space Complexity - O(n)
+
+
+
+problem 4:
+The input list is traversed just once in the while loop and constant auxilary space is used.
+Time Complexity - O(n)
+Space Complexity - O(1)
+
+
+
+problem 5:
+The Trie data structure is used to implement autocomplete.
+Trie:
+Time complexity of insert and find functions is n. Since lookup in dictionary happens in constant time.
+And we are doing lookup n times for input of length n.
+Time Complexity - O(n)
+Space Complexity - O(1)
+TrieNode:
+The time complexity of insert method  in TrieNode is constant.
+We are just inserting one element at a time.
+The Time complexity of suffixes function is O(n*m) where n is depth of the TRie and m is average number of children per node.
+The space time complexity is O(n).
+Time Complexity: O(n*m)
+Space Complexity: O(n)
+
+Overall:
+Time Complexity: O(n*m)
+Space Complexity: O(n)
+
+
+
+problem 6:
+List is traversed only once in the for loop. ANd no extra space is taken.
+Time - O(n)
+Space - O(1)
+
+
+
+problem 7:
+The most time consuming part of the code are add_handler and lookup. For an input which can be splicated into n parts. They traverse n steps in Trie. In linear time.
+Time - O(n)
+Space - O(1)

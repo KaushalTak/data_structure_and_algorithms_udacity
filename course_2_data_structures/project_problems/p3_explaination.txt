@@ -1,0 +1,14 @@
+Time complexity:
+There are multiple steps, following are the time complexities associated with each:
+1. Getting character frequency will take O(n)
+2. In creating tree highest complexity will be insertion on n elements in the heap. For this complexity will be nlog(n)
+3. Getting encodings means traversing the tree, which will take O(n)
+4. Getting decoded code will also take O(n)
+Maximum complexity is nlog(n) and that will be time complexity of the algorithm.
+==> O(nlog(n))
+
+Space Complexity:
+The char frequency directory will have space complexity of O(n), the n unique characters in a tree become leafs,
+extra nodes are created which have sums for combination of 2 character frequency, so space required for n is 2^n,
+the O(2^n). For the decoded part space complexity is O(n) as a string is created of n length.
+==> O(2^n) for tree and O(n) for decoded text.
