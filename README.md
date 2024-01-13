@@ -2,3 +2,5 @@ This repository contains code for all the examples and tests that are on the Uda
 Course List:
 1. Intoduction to Python and Programming
 2. Data Structures
+3. Basic Algorithms
+4. Advanced Algorithms
